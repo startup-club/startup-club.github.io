@@ -234,8 +234,14 @@ li {
   
 #about {
   height: 100%;
-  width: 90%;
+  width: 85%;
   padding: 20px 0px 50px 50px;
+}
+
+@media (max-width: 767px) {
+  #about-heading{
+    text-align: center;
+  }
 }
 
 #about-image {
@@ -249,6 +255,12 @@ li {
   height: 100%;
   width: 90%;
   padding: 20px 0px 50px 50px;
+}
+
+@media (max-width: 767px) {
+  #team-heading{
+    text-align: center;
+  }
 }
 
 @media (max-width: 767px) {
