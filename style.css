@@ -1,0 +1,306 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
+h1, h2 {
+  font-family: Montserrat;
+}
+
+p {
+  margin: 20px 10px 20px 0px;
+  font-family: Lato;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Navbar */
+
+nav {
+  width: 100%;
+  border: none;
+  margin: 0;
+  padding-left: -20px;
+  background: #f0f0f0;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+  }
+}
+
+@media (min-width: 767px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: right;
+  padding: 20px;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 767px) {
+  .logo {
+    margin-left: 50px;
+    font-size: 20px;
+  }
+}
+
+#navbar-sign-up {
+  font-family: Lato;
+  background: white;
+  opacity: 90%;
+  border-radius: 10px;
+  padding: 0.7vmax;
+}
+
+/* Jumbotron */
+
+@media (max-width: 767px) {
+  #jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px 0px 60px 0px;
+  }
+}
+
+@media (min-width: 767px) {
+  #jumbotron {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 20px 0px 60px 50px;
+  }
+}
+
+#jumbotron-text {
+  width: 40%;
+}
+
+#jumbotron-title {
+  font-size: 3.7vmax;
+}
+
+#jumbotron-sign-up {
+  font-family: Lato;
+  background: #F75353;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px grey;
+  padding: 10px 25px 10px 25px;
+}
+
+@media (max-width: 767px) {
+  #jumbotron-visual {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 767px) {
+  #jumbotron-visual {
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+}
+
+#jumbotron-image {
+  max-width: 75%;
+  height: auto;
+}
+
+/* Club Description */
+
+#club {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px 50px 0px;
+  background: #f0f0f0;
+}
+
+#club-description {
+  font-size: 24px;
+  padding: 0 20% 0 20%;
+}
+
+/* Features */
+
+@media (max-width: 767px) {
+  #features {
+    height: 100%;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+  }
+}
+
+@media (min-width: 767px) {
+  #features {
+    height: 100%;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  #features-heading {
+    padding-left: 10%;
+  }
+}
+
+@media (min-width: 767px) {
+  #features-heading {
+    padding-left: 6%;
+  }
+}
+
+@media (max-width: 767px) {
+  #feature-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 767px) {
+  #feature-boxes {
+    display: flex;
+  }
+}
+
+@media (max-width: 767px) {
+  .feature-box {
+    width: 80%;
+    padding: 0px 10% 0px 10%;
+  }
+}
+
+@media (min-width: 767px) {
+  .feature-box {
+    width: 20%;
+    padding: 0px 6% 0px 6%;
+  }
+}
+
+.feature-text {
+  font-size: 20px;
+}
+
+/* Testimonials */
+
+#testimonials {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px 50px 0px;
+  background: #f0f0f0;
+}
+
+#testimonial-description {
+  font-size: 24px;
+  padding: 0 20% 0 20%;
+}
+
+/* About */
+  
+#about {
+  height: 100%;
+  width: 90%;
+  padding: 20px 0px 50px 50px;
+}
+
+#about-image {
+  max-width: 60%;
+  height: auto;
+}
+  
+/* The Team */
+  
+#team {
+  height: 100%;
+  width: 90%;
+  padding: 20px 0px 50px 50px;
+}
+
+@media (max-width: 767px) {
+  #team-members {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (min-width: 767px) {
+  #team-members {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .team-member {
+    width: 80%;
+  }
+}
+
+@media (min-width: 767px) {
+  .team-member {
+    width: 25%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+.member-pic {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 20px 0px 20px 50px;
+}
+
+.footer-gray {
+  background: #f0f0f0;
+}
+
+.footer-box {
+  width: 30%;
+}
